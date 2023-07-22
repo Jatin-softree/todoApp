@@ -4,7 +4,7 @@ import { auth, db } from "../Config/Config";
 import firebase from "firebase";
 import { GoogleButton } from "react-google-button";
 
-const GoogleSignUp = () => {
+const GoogleSignUp = (props) => {
   // New state variable to handle Google signup error
   const [googleSignupError, setGoogleSignupError] = useState("");
 
